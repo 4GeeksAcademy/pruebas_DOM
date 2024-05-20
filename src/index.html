@@ -14,6 +14,7 @@
   <body>
     <ul class="filters">
       <li>
+        <!-- Filtro para ver si queremos que la imagen de portada se vea o no  -->
         <label>Include Cover</label>
         <select class="picker" for="includeCover">
           <option value="">Include Cover</option>
@@ -21,64 +22,28 @@
           <option value="false">False</option>
         </select>
       </li>
+
+      <!-- Campo para rellenar el nombre. El input no tiene predefinida su información
+      y por eso aparece como un campo en blanco para poder escribir.  -->
       <li>
         <label>Name</label>
         <input class="picker" for="name" type="text" />
       </li>
+
+      <!-- Campo para rellenar el apellido -->
       <li>
         <label>Last Name</label>
         <input class="picker" for="lastName" type="text" />
       </li>
-      <li>
-        <label>S.M. Position</label>
-        <select class="picker" for="socialMediaPosition">
-          <option value="position-left">Left</option>
-          <option value="position-right">Right</option>
-        </select>
-      </li>
-      <li>
-        <label>Twitter</label>
-        <input class="picker" for="twitter" type="text" />
-      </li>
-      <li>
-        <label>Github</label>
-        <input class="picker" for="github" type="text" />
-      </li>
-      <li>
-        <label>LinkedIn</label>
-        <input class="picker" for="linkedin" type="text" />
-      </li>
-      <li>
-        <label>Instagram</label>
-        <input class="picker" for="instagram" type="text" />
-      </li>
+
+      <!-- Campo para seleccionar la profesión -->
       <li>
         <label>Role</label>
         <select class="picker" for="role">
-          <option value="">null</option>
+          <option value="">Selecciona:</option>
           <option value="Web Developer">Web Developer</option>
           <option value="Floor Planner">Floor Planner</option>
           <option value="Technical Writter">Technical Writter</option>
-        </select>
-      </li>
-      <li>
-        <label>City</label>
-        <select class="picker" for="city">
-          <option value="">null</option>
-          <option value="Miami">Miami</option>
-          <option value="Munich">Munich</option>
-          <option value="Caracas">Caracas</option>
-          <option value="Toronto">Toronto</option>
-        </select>
-      </li>
-      <li>
-        <label>Country</label>
-        <select class="picker" for="country">
-          <option value="">null</option>
-          <option value="USA">USA</option>
-          <option value="Germany">Germany</option>
-          <option value="Canada">Canada</option>
-          <option value="Venezuela">Venezuela</option>
         </select>
       </li>
     </ul>
